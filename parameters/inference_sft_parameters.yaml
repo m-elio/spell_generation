@@ -1,4 +1,4 @@
-model_dir: "models/Llama-2-13b-hf-D"
+model_dir: "models/gpt2-xl-D"
 dataset_path: "data/processed/spells_processed_and_formatted_eval.jsonl"
 
 generation_parameters:
