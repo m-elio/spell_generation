@@ -10,7 +10,7 @@ data/processed/*
 data/raw/*
 !data/raw/.gitkeep
 
-cache/*
+cache/hf_cache/*
 !cache/.gitkeep
 !cache/hf_cache/.gitkeep
 
