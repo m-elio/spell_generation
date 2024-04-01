@@ -1,0 +1,15 @@
+model_dir: "models/Llama-2-13b-hf-D"
+dataset_path: "data/processed/spells_processed_and_formatted_eval.jsonl"
+
+generation_parameters:
+  max_new_tokens: 512
+  top_k: 0
+  top_p: 0.9
+  do_sample: true
+
+input_format: "raw"
+input_format_parameters:
+  text_field: "input"
+
+batch_size: 16
+padding_side: "left"
