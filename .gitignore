@@ -2,10 +2,10 @@ __pycache__/
 *.py[cod]
 
 data/interim/*
-data/interim/.gitkeep
+!data/interim/.gitkeep
 
 data/processed/*
-data/processed/.gitkeep
+!data/processed/.gitkeep
 
 data/raw/*
 !data/raw/.gitkeep
